@@ -5,12 +5,15 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FloatingCall from "./components/FloatingCall";
 import Index from "./pages/Index";
-import MenuPage from "./pages/MenuPage";
-import LocationsPage from "./pages/LocationsPage";
+import ProductsPage from "./pages/ProductsPage";
+import GuaranteePage from "./pages/GuaranteePage";
 import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
-import OrderPage from "./pages/OrderPage";
+import WhyChoosePage from "./pages/WhyChoosePage";
+import LocationPage from "./pages/LocationPage";
+import ReviewsPage from "./pages/ReviewsPage";
+import FAQPage from "./pages/FAQPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,14 +27,17 @@ const App = () => (
         <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/menu" element={<MenuPage />} />
-          <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/products" element={<ProductsPage />} />
+          <Route path="/guarantee" element={<GuaranteePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/order" element={<OrderPage />} />
+          <Route path="/why-choose-us" element={<WhyChoosePage />} />
+          <Route path="/location" element={<LocationPage />} />
+          <Route path="/reviews" element={<ReviewsPage />} />
+          <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
+        <FloatingCall />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

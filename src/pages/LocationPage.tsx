@@ -24,7 +24,7 @@ const LocationPage = () => {
                   <MapPin size={24} className="text-primary shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Address</h3>
-                    <p className="text-muted-foreground">127, Gomtipur Rd, Raipur Mill Compound<br />Krishna Nagar, Saraspur<br />Ahmedabad, Gujarat 380018</p>
+                    <p className="text-muted-foreground">127, Gomtipur Rd, Raipur Mill Compound<br />Saraspur, Ahmedabad, Gujarat 380018</p>
                     <p className="text-muted-foreground text-sm mt-1">Landmark: Near Raipur Mill Cross Road, Saraspur</p>
                   </div>
                 </div>

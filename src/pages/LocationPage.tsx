@@ -24,7 +24,7 @@ const LocationPage = () => {
                   <MapPin size={24} className="text-primary shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Address</h3>
-                    <p className="text-muted-foreground">127, Gomtipur Rd, Raipur Mill Compound<br />Krishna Nagar, Saraspur<br />Ahmedabad, Gujarat 380018</p>
+                    <p className="text-muted-foreground">127, Gomtipur Rd, Raipur Mill Compound<br />Saraspur, Ahmedabad, Gujarat 380018</p>
                     <p className="text-muted-foreground text-sm mt-1">Landmark: Near Raipur Mill Cross Road, Saraspur</p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const LocationPage = () => {
 
                 <Button variant="default" size="lg" className="w-full" asChild>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=23.0258,72.6040"
+                    href="https://www.google.com/maps/dir/?api=1&destination=127+Gomtipur+Rd+Raipur+Mill+Compound+Saraspur+Ahmedabad+380018"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -76,7 +76,7 @@ const LocationPage = () => {
             <div className="space-y-6">
               <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.6!2d72.604!3d23.0258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAxJzMzLjIiTiA3MsKwMzYnMTQuNSJF!5e0!3m2!1sen!2sin!4v1"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=127+Gomtipur+Rd+Raipur+Mill+Compound+Saraspur+Ahmedabad+Gujarat+380018&zoom=16"
                   width="100%"
                   height="400"
                   style={{ border: 0 }}

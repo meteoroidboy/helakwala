@@ -61,7 +61,7 @@ const LocationPage = () => {
 
                 <Button variant="default" size="lg" className="w-full" asChild>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=23.0258,72.6040"
+                    href="https://www.google.com/maps/dir/?api=1&destination=127+Gomtipur+Rd+Raipur+Mill+Compound+Saraspur+Ahmedabad+380018"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"

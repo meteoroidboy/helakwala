@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Heart, Shield, Sparkles, Users, Award } from "lucide-react";
-import ownerPhoto from "@/assets/owner-photo.jpg";
+
 import shopInterior from "@/assets/shop-interior.jpg";
 
 const values = [
@@ -51,8 +51,7 @@ const AboutPage = () => {
 
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <img src={ownerPhoto} alt="Mustaqbhai Helakwala" className="rounded-2xl shadow-xl w-full object-cover aspect-square" />
+          <div className="max-w-2xl mx-auto text-center">
             <div>
               <p className="text-forest font-semibold tracking-widest uppercase text-sm mb-2">Meet the Owner</p>
               <h2 className="font-display text-3xl font-bold text-foreground mb-4">Mustaqbhai Helakwala</h2>

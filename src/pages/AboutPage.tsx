@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Heart, Shield, Sparkles, Users, Award } from "lucide-react";
 
-import shopInterior from "@/assets/shop-interior.jpg";
+
 
 const values = [
   { icon: Shield, title: "Quality First", desc: "Never compromise, never settle." },

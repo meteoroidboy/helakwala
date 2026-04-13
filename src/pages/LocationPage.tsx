@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle, XCircle, Navigation } from "lucide-react";
-import shopInterior from "@/assets/shop-interior.jpg";
+
 
 const LocationPage = () => {
   return (
@@ -85,7 +85,7 @@ const LocationPage = () => {
                   title="Helakwala Location"
                 />
               </div>
-              <img src={shopInterior} alt="Helakwala shop interior" className="rounded-2xl shadow-lg w-full object-cover aspect-video" />
+              
             </div>
           </div>
         </div>

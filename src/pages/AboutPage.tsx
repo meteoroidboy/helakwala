@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Heart, Shield, Sparkles, Users, Award } from "lucide-react";
 
-import shopInterior from "@/assets/shop-interior.jpg";
+
 
 const values = [
   { icon: Shield, title: "Quality First", desc: "Never compromise, never settle." },
@@ -24,17 +24,14 @@ const AboutPage = () => {
 
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="font-display text-3xl font-bold text-foreground mb-6">Who We Are</h2>
-              <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                Founded by Mustaqbhai Helakwala, Helakwala Mutton & Chicken Shop has become Ahmedabad's most trusted name in quality meat.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                What started as a commitment to serve the community with honest, high-quality products has grown into a legacy serving over 40,000+ satisfied customers.
-              </p>
-            </div>
-            <img src={shopInterior} alt="Helakwala shop" className="rounded-2xl shadow-xl w-full object-cover aspect-video" />
+          <div className="max-w-2xl mx-auto">
+            <h2 className="font-display text-3xl font-bold text-foreground mb-6">Who We Are</h2>
+            <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+              Founded by Mustaqbhai Helakwala, Helakwala Mutton & Chicken Shop has become Ahmedabad's most trusted name in quality meat.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              What started as a commitment to serve the community with honest, high-quality products has grown into a legacy serving over 40,000+ satisfied customers.
+            </p>
           </div>
         </div>
       </section>

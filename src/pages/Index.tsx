@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Users, Star, MapPin, Sparkles, CheckCircle } from "lucide-react";
 import heroImage from "@/assets/hero-meat.jpg";
 import muttonCuts from "@/assets/mutton-cuts.jpg";
-import shopInterior from "@/assets/shop-interior.jpg";
+
 
 const trustBadges = [
   { icon: Users, label: "40,000+", desc: "Happy Customers" },
@@ -147,17 +147,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Shop Interior */}
-      <section className="py-20 bg-section-warm">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-forest font-semibold tracking-widest uppercase text-sm mb-2">Our Facility</p>
-          <h2 className="font-display text-4xl font-bold text-foreground mb-4">Clean. Professional. Trusted.</h2>
-          <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
-            Visit our Saraspur shop and see the difference. Spotless facility, expert butchers, premium quality on display.
-          </p>
-          <img src={shopInterior} alt="Clean Helakwala shop interior" className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto object-cover" />
-        </div>
-      </section>
 
       {/* Testimonials */}
       <section className="py-20 bg-background">
